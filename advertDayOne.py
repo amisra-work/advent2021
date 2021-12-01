@@ -1,3 +1,5 @@
+from common_code import readInputFile
+
 def partOne(arr): 
     deeper = 0
     depths = 0
@@ -25,15 +27,6 @@ def partTwo(arr):
         curr += 1
 
     return t    
-
-def readInputFile(filename):
-    l = []
-    with open(filename) as f:
-        lines = f.readlines()
-        for line in lines:
-            line = int(line.rstrip())
-            l.append(line)
-    return l
 
 if __name__ == "__main__":
     filename1 = 'advertDayOneP1Input.txt'
