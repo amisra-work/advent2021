@@ -29,9 +29,8 @@ def partTwo(arr):
     return t    
 
 if __name__ == "__main__":
-    filename1 = 'advertDayOneP1Input.txt'
-    filename2 = 'advertDayOneP1Input.txt'
-    l = readInputFileNumbers(filename1)
+    filename = 'inputs/advertDayOneP1Input.txt'
+    l = readInputFileNumbers(filename)
     print(partOne(l))
-    s = readInputFileNumbers(filename2)
+    s = readInputFileNumbers(filename)
     print(partTwo(s))

@@ -34,7 +34,7 @@ def helper(arr):
     return l
 
 if __name__ == "__main__":
-    filename = 'advertDayTwoInput.txt'
+    filename = 'inputs/advertDayTwoInput.txt'
     l = helper(readInputFilePairs(filename))
     a = partOne(l)
     print(a[0] * a[1])
