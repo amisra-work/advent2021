@@ -1,4 +1,4 @@
-from common_code import readInputFile
+from common_code import readInputFileNumbers
 
 def partOne(arr): 
     deeper = 0
@@ -31,7 +31,7 @@ def partTwo(arr):
 if __name__ == "__main__":
     filename1 = 'advertDayOneP1Input.txt'
     filename2 = 'advertDayOneP1Input.txt'
-    l = readInputFile(filename1)
+    l = readInputFileNumbers(filename1)
     print(partOne(l))
-    s = readInputFile(filename2)
+    s = readInputFileNumbers(filename2)
     print(partTwo(s))
